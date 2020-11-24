@@ -1,0 +1,104 @@
+   *{
+        padding: 0;
+        margin: 0;
+    }
+.active{
+    border: 1px solid #fff  ;
+    background-color: #28a745;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s;
+    height: 100%;
+    width: 100%;
+}
+.card{
+    margin:15px ;
+}
+.card:hover {
+    border-color: rgb(85, 83, 83);
+    background-color:rgb(108, 207, 77);
+    color: #fff;
+    transition: color: 0.15s;
+
+
+}
+.order{
+    display: block;
+    width: 100%;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    background-color: #28a745;
+    border-color: #28a745;
+    text-align: center;
+    color: #fff;
+    
+}
+.order:hover{
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+    transition: color: 0.15s;
+    text-decoration: none;
+}
+.icon{
+    color: #fff;     
+}
+.icon:hover{
+    color: #28a745;
+}
+
+.card-img-top{
+     margin: 0 auto;
+    width: 75%;
+}
+
+.a {
+    color: black;
+}
+.m{
+   
+    color: red;
+    max-width: 100%;
+}
+.progrees-text{
+    padding-left: 45%;
+    
+    color: #fff;
+}
+.fa-shopping-cart{
+    color: #fff;
+    float: right;
+    font-size:30px;
+}
+.pl-lg{
+    padding-left:50% ;
+}
+.bor-hov:hover{
+    border: 1px solid #000;
+    
+}
+#footer{
+background: #343a40;
+padding: 0 0 30px 0;
+font-size: 14px;
+color: #fff;
+}
+#footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+}
+.fab{
+    font-size: 23px;
+    padding: 5px;
+   border-right:1px solid #fff ;
+}
+.fa-instagram{
+    border: none;
+}
